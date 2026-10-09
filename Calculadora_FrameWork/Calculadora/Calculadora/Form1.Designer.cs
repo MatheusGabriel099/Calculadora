@@ -41,17 +41,17 @@ namespace Calculadora
             this.Btn_Divisao = new System.Windows.Forms.Button();
             this.directorySearcher1 = new System.DirectoryServices.DirectorySearcher();
             this.Btn_Limpar = new System.Windows.Forms.Button();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // Lbl_Titulo
             // 
             this.Lbl_Titulo.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.Lbl_Titulo.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.Lbl_Titulo.Font = new System.Drawing.Font("MV Boli", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Lbl_Titulo.Font = new System.Drawing.Font("Microsoft New Tai Lue", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Lbl_Titulo.Location = new System.Drawing.Point(-10, 9);
             this.Lbl_Titulo.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Lbl_Titulo.Name = "Lbl_Titulo";
@@ -65,11 +65,11 @@ namespace Calculadora
             this.Lbl_Num1.AutoSize = true;
             this.Lbl_Num1.BackColor = System.Drawing.Color.Transparent;
             this.Lbl_Num1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Lbl_Num1.Font = new System.Drawing.Font("MV Boli", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Lbl_Num1.Font = new System.Drawing.Font("Microsoft New Tai Lue", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Lbl_Num1.Location = new System.Drawing.Point(252, 98);
             this.Lbl_Num1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Lbl_Num1.Name = "Lbl_Num1";
-            this.Lbl_Num1.Size = new System.Drawing.Size(137, 28);
+            this.Lbl_Num1.Size = new System.Drawing.Size(133, 28);
             this.Lbl_Num1.TabIndex = 3;
             this.Lbl_Num1.Text = "Primeiro N°:";
             // 
@@ -77,11 +77,11 @@ namespace Calculadora
             // 
             this.Lbl_Num2.AutoSize = true;
             this.Lbl_Num2.BackColor = System.Drawing.Color.Transparent;
-            this.Lbl_Num2.Font = new System.Drawing.Font("MV Boli", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Lbl_Num2.Font = new System.Drawing.Font("Microsoft New Tai Lue", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Lbl_Num2.Location = new System.Drawing.Point(254, 144);
             this.Lbl_Num2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Lbl_Num2.Name = "Lbl_Num2";
-            this.Lbl_Num2.Size = new System.Drawing.Size(135, 28);
+            this.Lbl_Num2.Size = new System.Drawing.Size(137, 28);
             this.Lbl_Num2.TabIndex = 4;
             this.Lbl_Num2.Text = "Segundo N°:";
             // 
@@ -170,26 +170,25 @@ namespace Calculadora
             this.Btn_Limpar.UseVisualStyleBackColor = false;
             this.Btn_Limpar.Click += new System.EventHandler(this.Btn_Limpar_Click);
             // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Image = global::Calculadora.Properties.Resources.calcula2;
-            this.pictureBox2.Location = new System.Drawing.Point(558, 98);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(221, 273);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox2.TabIndex = 12;
-            this.pictureBox2.TabStop = false;
-            // 
             // pictureBox1
             // 
             this.pictureBox1.Image = global::Calculadora.Properties.Resources.calcula2;
-            this.pictureBox1.Location = new System.Drawing.Point(13, 98);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.pictureBox1.Location = new System.Drawing.Point(12, 98);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(231, 273);
+            this.pictureBox1.Size = new System.Drawing.Size(213, 273);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 1;
+            this.pictureBox1.TabIndex = 12;
             this.pictureBox1.TabStop = false;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = global::Calculadora.Properties.Resources.calcula2;
+            this.pictureBox2.Location = new System.Drawing.Point(566, 98);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(213, 273);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox2.TabIndex = 13;
+            this.pictureBox2.TabStop = false;
             // 
             // Form1
             // 
@@ -198,6 +197,7 @@ namespace Calculadora
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(791, 471);
             this.Controls.Add(this.pictureBox2);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.Btn_Limpar);
             this.Controls.Add(this.Btn_Divisao);
             this.Controls.Add(this.Btn_Multiplicacao);
@@ -207,14 +207,13 @@ namespace Calculadora
             this.Controls.Add(this.Txt_Num1);
             this.Controls.Add(this.Lbl_Num2);
             this.Controls.Add(this.Lbl_Num1);
-            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.Lbl_Titulo);
             this.Font = new System.Drawing.Font("MV Boli", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "Form1";
             this.Text = "Calculadora Adição";
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -224,7 +223,6 @@ namespace Calculadora
 
         private System.Windows.Forms.Label Lbl_Titulo;
         private System.ComponentModel.BackgroundWorker backgroundWorker1;
-        private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label Lbl_Num1;
         private System.Windows.Forms.Label Lbl_Num2;
         private System.Windows.Forms.TextBox Txt_Num1;
@@ -235,6 +233,7 @@ namespace Calculadora
         private System.Windows.Forms.Button Btn_Divisao;
         private System.DirectoryServices.DirectorySearcher directorySearcher1;
         private System.Windows.Forms.Button Btn_Limpar;
+        private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.PictureBox pictureBox2;
     }
 }
