@@ -93,6 +93,26 @@ namespace Calculadora.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Calculating_Figure_It_Out_GIF {
+            get {
+                object obj = ResourceManager.GetObject("Calculating_Figure_It_Out_GIF", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Confused_Study_GIF_by_GifGari {
+            get {
+                object obj = ResourceManager.GetObject("Confused_Study_GIF_by_GifGari", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap matematica {
             get {
                 object obj = ResourceManager.GetObject("matematica", resourceCulture);

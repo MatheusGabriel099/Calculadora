@@ -124,6 +124,12 @@
   <data name="calcula2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\calcula2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Calculating_Figure_It_Out_GIF" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Calculating Figure It Out GIF.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Confused_Study_GIF_by_GifGari" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Confused Study GIF by GifGari.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="matematica" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\matematica.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>

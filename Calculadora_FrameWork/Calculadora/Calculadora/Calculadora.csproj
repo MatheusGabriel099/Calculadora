@@ -100,5 +100,11 @@
   <ItemGroup>
     <None Include="Resources\matematica.jpeg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Calculating Figure It Out GIF.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Confused Study GIF by GifGari.gif" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
